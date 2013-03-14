@@ -24,7 +24,7 @@
 
 
 - (void) motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event {
-    self.predictText.text = @"";
+    self.predictText.text = nil;
     self.predictText.alpha = 0;
 }
 
@@ -43,6 +43,10 @@
 
 - (void) makePrediction {
     self.predictText.text = [self.arrayOfPredictions objectAtIndex:arc4random() % self.arrayOfPredictions.count];
+    [UIView animateWithDuration:2 animations:^{
+        self.predictText.alpha = 1;
+        
+    }];
 }
 
 
@@ -51,7 +55,7 @@
 }
 
 - (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    self.predictText.text = @"";
+    self.predictText.text = nil;
     self.predictText.alpha = 0;
 }
 
