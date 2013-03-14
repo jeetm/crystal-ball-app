@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8176362F16F21159003A702F /* Crystal-Ball- 1136x640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8176362E16F21159003A702F /* Crystal-Ball- 1136x640.jpg */; };
+		8176363116F212E8003A702F /* Crystal-Ball- 960x640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8176363016F212E8003A702F /* Crystal-Ball- 960x640.jpg */; };
+		8176363316F214BE003A702F /* App-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8176363216F214BE003A702F /* App-icon.png */; };
+		8176363516F214F0003A702F /* 305072022_icon60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 8176363416F214F0003A702F /* 305072022_icon60x60.png */; };
 		81EBF5E316F1069D00C971FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EBF5E216F1069D00C971FF /* UIKit.framework */; };
 		81EBF5E516F1069D00C971FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EBF5E416F1069D00C971FF /* Foundation.framework */; };
 		81EBF5E716F1069D00C971FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EBF5E616F1069D00C971FF /* CoreGraphics.framework */; };
@@ -21,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8176362E16F21159003A702F /* Crystal-Ball- 1136x640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Crystal-Ball- 1136x640.jpg"; sourceTree = "<group>"; };
+		8176363016F212E8003A702F /* Crystal-Ball- 960x640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Crystal-Ball- 960x640.jpg"; sourceTree = "<group>"; };
+		8176363216F214BE003A702F /* App-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App-icon.png"; sourceTree = "<group>"; };
+		8176363416F214F0003A702F /* 305072022_icon60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 305072022_icon60x60.png; sourceTree = "<group>"; };
 		81EBF5DF16F1069D00C971FF /* Crystal Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crystal Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81EBF5E216F1069D00C971FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		81EBF5E416F1069D00C971FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,6 +64,7 @@
 		81EBF5D616F1069D00C971FF = {
 			isa = PBXGroup;
 			children = (
+				8176363416F214F0003A702F /* 305072022_icon60x60.png */,
 				81EBF5E816F1069D00C971FF /* Crystal Ball */,
 				81EBF5E116F1069D00C971FF /* Frameworks */,
 				81EBF5E016F1069D00C971FF /* Products */,
@@ -83,8 +92,6 @@
 		81EBF5E816F1069D00C971FF /* Crystal Ball */ = {
 			isa = PBXGroup;
 			children = (
-				81EBF5F116F1069D00C971FF /* CrystalBallAppDelegate.h */,
-				81EBF5F216F1069D00C971FF /* CrystalBallAppDelegate.m */,
 				81EBF5FA16F1069D00C971FF /* MainStoryboard.storyboard */,
 				81EBF5FD16F1069D00C971FF /* CrystalBallViewController.h */,
 				81EBF5FE16F1069D00C971FF /* CrystalBallViewController.m */,
@@ -96,9 +103,14 @@
 		81EBF5E916F1069D00C971FF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				81EBF5F116F1069D00C971FF /* CrystalBallAppDelegate.h */,
+				81EBF5F216F1069D00C971FF /* CrystalBallAppDelegate.m */,
 				81EBF5EA16F1069D00C971FF /* Crystal Ball-Info.plist */,
 				81EBF5EB16F1069D00C971FF /* InfoPlist.strings */,
+				8176362E16F21159003A702F /* Crystal-Ball- 1136x640.jpg */,
 				81EBF5EE16F1069D00C971FF /* main.m */,
+				8176363216F214BE003A702F /* App-icon.png */,
+				8176363016F212E8003A702F /* Crystal-Ball- 960x640.jpg */,
 				81EBF5F016F1069D00C971FF /* Crystal Ball-Prefix.pch */,
 				81EBF5F416F1069D00C971FF /* Default.png */,
 				81EBF5F616F1069D00C971FF /* Default@2x.png */,
@@ -164,6 +176,10 @@
 				81EBF5F716F1069D00C971FF /* Default@2x.png in Resources */,
 				81EBF5F916F1069D00C971FF /* Default-568h@2x.png in Resources */,
 				81EBF5FC16F1069D00C971FF /* MainStoryboard.storyboard in Resources */,
+				8176362F16F21159003A702F /* Crystal-Ball- 1136x640.jpg in Resources */,
+				8176363116F212E8003A702F /* Crystal-Ball- 960x640.jpg in Resources */,
+				8176363316F214BE003A702F /* App-icon.png in Resources */,
+				8176363516F214F0003A702F /* 305072022_icon60x60.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +315,7 @@
 				81EBF60416F1069D00C971FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

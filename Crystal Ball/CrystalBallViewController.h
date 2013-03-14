@@ -10,4 +10,9 @@
 
 @interface CrystalBallViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *predictText;
+@property (strong, nonatomic) NSMutableArray* arrayOfPredictions;
+
+- (NSArray*) setArray;
+- (void) makePrediction;
 @end
