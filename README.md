@@ -1,4 +1,4 @@
-Crystal Ball
+Magic 8 Ball  Mock - Crystal Ball
 ================
 
 <b><h3>Description</h3></b>
