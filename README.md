@@ -2,7 +2,7 @@ Magic 8 Ball  Mock - Crystal Ball
 ================
 
 <b><h3>Description</h3></b>
-<b>Note:</b> j4mehta is another GitHub account which I had while I was working at Kik Interactive during a co-op term. I have transferred the repositories for the personal projects which I worked on during the time I was there to this new account, which explains why the account activity for jeetmehta seems less in comparison to the amount of work shown.<br>
+<b>Note: </b> j4mehta is another GitHub account which I had while I was working at Kik Interactive during a co-op term. I have transferred the repositories for the personal projects which I worked on during the time I was there to this new account, which explains why the account activity for jeetmehta seems less in comparison to the amount of work shown.<br>
 
 The Crystal Ball app is an application which I created by following a set of tutorials available online, provided by <a href = "http://teamtreehouse.com/library/ios-development">Treehouse</a>. This was basically an attempt to start learning the iOS SDK, as well as the basics of Objective-C. I am trying to branch out in terms of programming ability as much as possible, and I've always believed that "learning by doing" is the best way to learn, so I began exploring iOS development.
 <br>
